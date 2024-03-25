@@ -1,5 +1,6 @@
 # mySortableDemo
-一个基于sortablejs、draggable、eltable的多层拖拽列表demo
+
+一个基于 sortablejs、draggable、eltable 的多层拖拽列表 demo
 
 github:https://github.com/INEO-ZHANG/mySortableDemo
 
@@ -22,8 +23,6 @@ github:https://github.com/INEO-ZHANG/mySortableDemo
   },
 ```
 
-
-
 ##### 初始:
 
 ![image-20240326000003284](https://github.com/INEO-ZHANG/mySortableDemo/blob/main/images/image-20240326000003284.png)
@@ -36,16 +35,14 @@ github:https://github.com/INEO-ZHANG/mySortableDemo
 
 ![image-20240326000401344](https://github.com/INEO-ZHANG/mySortableDemo/blob/main/images/image-20240326000401344.png)
 
-由于是结合实际遇到的情况，所以外层是eltable+sortablejs;内层用了draggable。
-
-
+由于是结合实际遇到的情况，所以外层是 eltable+sortablejs;内层用了 draggable。
 
 #### 问题
 
 遇到的问题:
 
-1.table-key没设置导致拖拽后顺序混乱，以及table-key一定要不同。我原本只是绑定了name,但是会出现下图情况，应该是子节点导致name相同渲染混乱了,找了个和时间相关的随机的key就正常了
+1.table-key 没设置导致拖拽后顺序混乱，以及 table-key 一定要不同。我原本只是绑定了 name,但是会出现下图情况，应该是子节点导致 name 相同渲染混乱了,找了个和时间相关的随机的 key 就正常了
 
-![image-20240326001244344](https://github.com/INEO-ZHANG/mySortableDemo/blob/main\images\image-20240326001244344.png)
+![image-20240326001244344](https://github.com/INEO-ZHANG/mySortableDemo/blob/main/images/image-20240326001244344.png)
 
-2.目前的问题是内部的draggable的@end触发不了，暂时没啥影响，后面再看看吧
+2.目前的问题是内部的 draggable 的@end 触发不了，暂时没啥影响，后面再看看吧
