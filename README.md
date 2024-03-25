@@ -26,7 +26,7 @@ github:https://github.com/INEO-ZHANG/mySortableDemo
 
 ##### 初始:
 
-![image-20240326000003284](.\images\image-20240326000003284.png)
+![image-20240326000003284](https://github.com/INEO-ZHANG/mySortableDemo/blob/main/images/image-20240326000003284.png)
 
 ##### aaa2->aaa1
 
