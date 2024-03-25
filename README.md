@@ -30,11 +30,11 @@ github:https://github.com/INEO-ZHANG/mySortableDemo
 
 ##### aaa2->aaa1
 
-![image-20240326000231256](.\images\image-20240326000231256.png)
+![image-20240326000231256](https://github.com/INEO-ZHANG/mySortableDemo/blob/main/images/image-20240326000231256.png)
 
 ##### aaa->bbb
 
-![image-20240326000401344](.\images\image-20240326000401344.png)
+![image-20240326000401344](https://github.com/INEO-ZHANG/mySortableDemo/blob/main/images/image-20240326000401344.png)
 
 由于是结合实际遇到的情况，所以外层是eltable+sortablejs;内层用了draggable。
 
@@ -46,6 +46,6 @@ github:https://github.com/INEO-ZHANG/mySortableDemo
 
 1.table-key没设置导致拖拽后顺序混乱，以及table-key一定要不同。我原本只是绑定了name,但是会出现下图情况，应该是子节点导致name相同渲染混乱了,找了个和时间相关的随机的key就正常了
 
-![image-20240326001244344](.\images\image-20240326001244344.png)
+![image-20240326001244344](https://github.com/INEO-ZHANG/mySortableDemo/blob/main\images\image-20240326001244344.png)
 
 2.目前的问题是内部的draggable的@end触发不了，暂时没啥影响，后面再看看吧
